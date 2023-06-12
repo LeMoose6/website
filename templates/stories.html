@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+
+{% block title %} Stories {% endblock %}
+    <link rel="stylesheet" href="/static/stylesheet.css">
+
+{% block head %}
+    <link rel="stylesheet" href="/static/stories.css">
+{% endblock %}
+
+{% block header %} Stories {% endblock %}
+    {% block main %}
+        <div class="left-column">
+            <img id="mudd1" src="/static/images/to-kill-a-judithbird.png">
+            <img id="mudd-holiday1" src="/static/images/a-miracle-on-judy-mudd-street.png">
+            <img id="mudd2" src="/static/images/the-wizard-of-mudd.png">
+            <img id="mudd3" src="/static/images/life-of-judy.png">
+        </div>
+        <div class="right-column content-block">
+            <h2 id="title-display"></h2>
+            <img id="img-display">
+            <p id="p-display"></p>
+            <a class="block" id="a-display">Read</a>
+        </div>
+{% endblock %}
+
+{% block script %} "/static/stories.js" {% endblock %}

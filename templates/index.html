@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block header %} Welcome to Le Moose {% endblock %}
+
+{% block main %}
+        <div class="content-block">
+            <div class="marginizer">
+                <h2>Stories</h2>
+                <p>
+                Read from the many stories written by LeMoose, 
+                including the critically acclaimed Judy Mudd series.
+                </p>
+                <a class="block" href="/stories">Read Now</a>
+            </div>
+        </div>
+        <div class="content-block">
+            <div class="marginizer">
+                <h2>Library</h2>
+                <p>
+                    Renew books and place holds, all from the LeMoose Website.
+                    This is the easiest version of the library system yet.
+                </p>
+                <a class="block" href="/library">Use the Library</a>
+            </div>
+        </div>
+        <div class="content-block bottom">
+            <div class="marginizer">
+                <h2>News</h2>
+                <p>
+                    Learn about everything new and upcoming with LeMoose. This is the best place 
+                    to learn about new features, pages, and content appearing on the lemoose website.
+                </p>
+                <a class="block" href="/news">Access the News</a>
+            </div>
+        </div>
+{% endblock %}

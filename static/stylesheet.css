@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: darkgreen;
+    color: darkseagreen;
+    width: 100%;
+    padding: 2rem 0;
+    border-bottom: 1rem olivedrab solid;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+main {
+    padding: 0.75rem 0;
+    background-color: darkolivegreen;
+    width: 100%;
+}
+
+.content-block {
+    background-color: teal;
+    border-bottom: .5rem lightseagreen solid;
+    padding: .25rem 0;
+    width: 100%;
+}
+
+.bottom {
+    border: none;
+}
+
+.marginizer {
+    margin: 1.5rem;
+    margin-top: .25rem;
+}
+
+a.block {
+    display: inline-block;
+    text-decoration: none;
+    background-color: olivedrab;
+    color: lightcyan;
+    border: darkgreen .125rem solid;
+    text-align: center;
+    padding: 0.125rem;
+}
+
+footer {
+    padding: .5rem;
+    background-color: darkslategrey;
+    text-align: center;
+    align-items: center;
+
+}
+
+.nav-bar a {
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    padding: .5rem;
+    background-color: darkgreen;
+    color: darkseagreen;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: darkgreen;
+    background-color: darkseagreen;
+}
+
+footer .copyright {
+    color: white;
+    margin-top: .5rem;
+}
